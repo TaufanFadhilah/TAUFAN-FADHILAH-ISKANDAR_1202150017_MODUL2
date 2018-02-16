@@ -53,5 +53,6 @@
         android:textColor="@color/colorAccent"
         android:padding="@dimen/padding_button"
         android:layout_marginTop="10sp"
+        android:onClick="onClickOrder"
         />
 </LinearLayout>

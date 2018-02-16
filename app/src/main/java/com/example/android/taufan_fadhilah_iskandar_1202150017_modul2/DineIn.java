@@ -1,5 +1,6 @@
 package com.example.android.taufan_fadhilah_iskandar_1202150017_modul2;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -37,5 +38,10 @@ public class DineIn extends AppCompatActivity implements
     @Override
     public void onNothingSelected(AdapterView<?> adapterView) {
 
+    }
+
+    public void onClickOrder(View view) {
+        Intent intent = new Intent(this,Menu.class);
+        startActivity(intent);
     }
 }
