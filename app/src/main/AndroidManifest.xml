@@ -19,7 +19,8 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".TakeAway" />
         <activity android:name=".DineIn" />
-        <activity android:name=".Menu"></activity>
+        <activity android:name=".Menu" />
+        <activity android:name=".DetailMenu"></activity>
     </application>
 
 </manifest>

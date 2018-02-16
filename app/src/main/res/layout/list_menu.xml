@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    android:layout_marginTop="20dp">
+    style="@style/item_list">
 
     <LinearLayout
         android:id="@+id/ll_photo"
@@ -22,9 +19,15 @@
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/ll_photo"
         android:orientation="vertical">
+        <!--<TextView-->
+            <!--android:id="@+id/tv_food"-->
+            <!--style="@style/food_title" />-->
         <TextView
             android:id="@+id/tv_food"
-            style="@style/food_title" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_head"
+            android:textStyle="bold"/>
         <TextView
             android:id="@+id/tv_price"
             android:layout_width="wrap_content"
