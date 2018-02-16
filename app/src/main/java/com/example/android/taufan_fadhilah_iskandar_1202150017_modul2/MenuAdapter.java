@@ -72,7 +72,7 @@ public class MenuAdapter extends
                     // Use that to access the affected item in mWordList.
                     String food = mFoodList.get(mPosition);
                     Integer price = mPriceList.get(mPosition);
-                    Integer photo = mPriceList.get(mPosition);
+                    Integer photo = mPhotoList.get(mPosition);
                     Intent intent = new Intent(itemView.getContext(),DetailMenu.class);
                     intent.putExtra("food",food);
                     intent.putExtra("price",price);
